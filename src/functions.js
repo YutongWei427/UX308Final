@@ -56,7 +56,7 @@ function pay_raise(status, years, salary){
             percent=0.01
         }
     }
-    return salary*(1+percent).toFixed(2)
+    return (salary*(1+percent)).toFixed(2)
 }
 
 function is_leap(year){
